@@ -1,0 +1,91 @@
+/* basic sass   */
+.paging {
+  margin: 20px 0px 10px; }
+  .paging .previous {
+    display: inline-block; }
+    .paging .previous a {
+      border: 1px solid #292929;
+      border-left: 0px;
+      border-right: 0px;
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+      margin-right: -6px; }
+  .paging .next {
+    display: inline-block; }
+    .paging .next a {
+      border: 1px solid #292929;
+      border-left: 0px;
+      border-right: 0px;
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+      margin-left: -6px; }
+  .paging .first {
+    display: inline-block; }
+    .paging .first a {
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+      margin-right: -6px;
+      border: 1px solid #292929;
+      border-right: 0px;
+      -webkit-border-top-left-radius: 5px;
+      -moz-border-top-left-radius: 5px;
+      -ms-border-top-left-radius: 5px;
+      -o-border-top-left-radius: 5px;
+      border-top-left-radius: 5px;
+      -webkit-border-bottom-left-radius: 5px;
+      -moz-border-bottom-left-radius: 5px;
+      -ms-border-bottom-left-radius: 5px;
+      -o-border-bottom-left-radius: 5px;
+      border-bottom-left-radius: 5px; }
+  .paging .last {
+    display: inline-block; }
+    .paging .last a {
+      display: block;
+      padding: 5px 10px;
+      text-decoration: none;
+      border: 1px solid #292929;
+      margin-left: -6px;
+      border: 1px solid #292929;
+      border-left: 0px;
+      -webkit-border-top-right-radius: 5px;
+      -moz-border-top-right-radius: 5px;
+      -ms-border-top-right-radius: 5px;
+      -o-border-top-right-radius: 5px;
+      border-top-right-radius: 5px;
+      -webkit-border-bottom-right-radius: 5px;
+      -moz-border-bottom-right-radius: 5px;
+      -ms-border-bottom-right-radius: 5px;
+      -o-border-bottom-right-radius: 5px;
+      border-bottom-right-radius: 5px; }
+  .paging .paging-nav {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0px 6px;
+    border: 1px solid #292929;
+    border-left: 0px;
+    border-right: 0px; }
+    .paging .paging-nav__item {
+      display: inline-block;
+      border: 0;
+      padding-left: 0; }
+      .paging .paging-nav__item:last-child {
+        border-right: 0px;
+        margin-right: 0px; }
+      .paging .paging-nav__item:hover {
+        background-color: #C4D8AF; }
+      .paging .paging-nav__item a {
+        display: block;
+        padding: 5px 15px;
+        text-decoration: none; }
+    .paging .paging-nav .active {
+      background-color: #292929; }
+      .paging .paging-nav .active a {
+        color: #C7C7C7; }
+      .paging .paging-nav .active a:hover {
+        background-color: #292929; }
+
+/*# sourceMappingURL=paging.css.map */

@@ -1,0 +1,53 @@
+@import 'function.scss';
+
+.login-content {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
+  .login-box {
+    width: 768px;
+    height: 300px;
+    border: 1px solid #333;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    padding: 30px 5px;
+    margin: 230px auto;
+
+    .user-box {
+      display: inline-block;
+      vertical-align: top;
+      width: 40%;
+      margin-top: 85px;
+
+      .id-label, .pass-label {
+        display: block;
+
+        &__title {
+          display: inline-block;
+          width: 30%;
+          margin: 0;
+          text-align: right;
+          font-weight: 600;
+	        color: #5C5C5B;
+        }
+      }
+      .id-label, .pass-label {
+        margin-bottom: 15px;
+      }
+    }
+
+    .blank-home {
+      display: inline-block;
+      width: 55%;
+
+      img {
+       max-width: 100%;
+       margin-top: 25px;
+      }
+    }
+  }
+}

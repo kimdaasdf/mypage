@@ -1,0 +1,24 @@
+@import 'function.scss';
+
+/*********
+* footer *
+*********/
+.footer {
+  width: 100%;
+  color: $dark-gray;
+  border-top: 2px solid $dark-gray;
+  padding: 20px 0px;
+  text-align: center;
+
+  &__content {
+
+    &__info {
+      margin: 0;
+      list-style: none;
+
+      &__item {
+        display: inline-block;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+/* basic sass   */
+/*********
+* footer *
+*********/
+.footer {
+  width: 100%;
+  color: #292929;
+  border-top: 2px solid #292929;
+  padding: 20px 0px;
+  text-align: center; }
+  .footer__content__info {
+    margin: 0;
+    list-style: none; }
+    .footer__content__info__item {
+      display: inline-block; }
+
+/*# sourceMappingURL=footer.css.map */
