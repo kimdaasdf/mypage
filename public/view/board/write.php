@@ -18,6 +18,9 @@
         </ul>
       </section>
       <section class="content">
+      <form action="/store.php">
+
+      </form>
         <h1 class="big-title">자유 게시판</h1>
         <div class="write-box">
           <input type="text" name="board_title" class="custom-form">

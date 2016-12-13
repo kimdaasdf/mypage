@@ -16,7 +16,7 @@
       </section>
       <section class="content">
         <h1 class="big-title">회원가입</h1>
-        <form>
+        <form action="/member-store.php">
           <table class="member-table" border="1">
             <tbody>
               <tr>
@@ -35,6 +35,18 @@
                 <th class="member-table__title">비밀번호</th>
                 <td>
                   <input type="password" name="member_pass" class="custom-form">
+                </td>
+              </tr>
+              <tr>
+                <th class="member-table__title">비밀번호 확인</th>
+                <td>
+                  <input type="password" name="member_pass_ok" class="custom-form">
+                </td>
+              </tr>
+              <tr>
+                <th class="member-table__title">생일</th>
+                <td>
+                  <input type="text" name="member_birthday" class="custom-form">
                 </td>
               </tr>
               <tr>
