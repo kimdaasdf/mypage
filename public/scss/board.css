@@ -25,13 +25,13 @@
       .board-place .free-board__title th {
         padding: 10px 0px; }
       .board-place .free-board__title th:first-child {
-        width: 7%; }
+        width: 10%; }
       .board-place .free-board__title th:nth-child(2) {
         width: 50%; }
       .board-place .free-board__title th:nth-child(3) {
         width: 10%; }
       .board-place .free-board__title th:nth-child(4) {
-        width: 26%; }
+        width: 23%; }
       .board-place .free-board__title th:last-child {
         width: 7%; }
     .board-place .free-board__content {

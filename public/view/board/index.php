@@ -7,16 +7,7 @@
 
     <article class="content-container">
       <section class="side-nav">
-        <div class="side-nav__title">
-          게시판
-        </div>
-        <ul class="side-nav__menu">
-          <li class="side-nav__menu__item"><a href="">이거</a></li>
-          <li class="side-nav__menu__item"><a href="">옆에</a></li>
-          <li class="side-nav__menu__item"><a href="">있는</a></li>
-          <li class="side-nav__menu__item"><a href="">메뉴</a></li>
-          <li class="side-nav__menu__item"><a href="">이다</a></li>
-        </ul>
+        <?php include('board-side-nav.php') ?>
       </section>
       <section class="content">
         <h1 class="big-title">자유 게시판</h1>

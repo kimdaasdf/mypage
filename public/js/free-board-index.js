@@ -1,6 +1,6 @@
   $.ajax({
     type: 'GET',
-    url: '/data-model/boards.php',
+    url: '/data-model/freeboard.php',
     data: 'boards',
     dataType: 'json',
     success: function (boards) {

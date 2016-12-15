@@ -39,6 +39,12 @@
             box-shadow: 0 4px 2px -2px #C7C7C7; }
             .main-home .wrap .content-container .content .board-place__half__table__title th {
               padding: 10px 0px; }
+            .main-home .wrap .content-container .content .board-place__half__table__title th:first-child {
+              width: 8%; }
+            .main-home .wrap .content-container .content .board-place__half__table__title th:nth-child(2) {
+              width: 45%; }
+            .main-home .wrap .content-container .content .board-place__half__table__title th:nth-child(3) {
+              width: 17%; }
           .main-home .wrap .content-container .content .board-place__half__table__content tr {
             padding: 5px 0px; }
             .main-home .wrap .content-container .content .board-place__half__table__content tr:nth-child(2n) {

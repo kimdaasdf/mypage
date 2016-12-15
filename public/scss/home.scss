@@ -52,6 +52,17 @@
                 th {
                   padding: 10px 0px;
                 }
+                th:first-child {
+                  width: 8%;
+                }
+
+                th:nth-child(2) {
+                  width: 45%;
+                }
+
+                th:nth-child(3) {
+                  width: 17%;
+                }
               }
               &__content {
                 tr {

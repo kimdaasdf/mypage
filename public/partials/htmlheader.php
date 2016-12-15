@@ -12,6 +12,7 @@
 <!--   <script type="text/javascript" src="/lib/bootstrap/js/bootstrap.js"></script>
 <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap-theme.css"> -->
+  <link rel="stylesheet" type="text/css" href="/lib/jquery/jquery-ui/jquery-ui.css">
   <link rel="stylesheet" type="text/css" href="/scss/header.css">
   <link rel="stylesheet" type="text/css" href="/scss/all.css">
   <link rel="stylesheet" type="text/css" href="/scss/home.css">

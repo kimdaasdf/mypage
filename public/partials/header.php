@@ -8,20 +8,17 @@
           <a href="/">HOME</a>
         </li>
         <li class="top-nav__menu__item">
-          <a href="/view/board/index.php">일단</a>
+          <a href="/view/board/index.php">게시판</a>
           <ul class="top-nav__menu__item__sub">
-            <li class="top-nav__menu__item__sub__list"><a href="">하나 메뉴</a></li>
-            <li class="top-nav__menu__item__sub__list"><a href="">두울 메뉴</a></li>
-            <li class="top-nav__menu__item__sub__list"><a href="">세엣 메뉴</a></li>
-            <li class="top-nav__menu__item__sub__list"><a href="">네엣 메뉴</a></li>
-            <li class="top-nav__menu__item__sub__list"><a href="">다섯 메뉴</a></li>
+            <li class="top-nav__menu__item__sub__list"><a href="">공지 게시판</a></li>
+            <li class="top-nav__menu__item__sub__list"><a href="">자유 게시판</a></li>
           </ul>
         </li>
         <li class="top-nav__menu__item">
-          <a href="">칸</a>
+          <a href="">갤러리</a>
         </li>
         <li class="top-nav__menu__item">
-          <a href="">채우기</a>
+          <a href="">방명록</a>
         </li>
       </ul>
     </section>
