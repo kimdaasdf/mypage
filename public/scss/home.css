@@ -23,7 +23,8 @@
         display: inline-block;
         width: 470px;
         margin: 5px 0px;
-        padding: 10px 0px; }
+        padding: 10px 0px;
+        vertical-align: top; }
         .main-home .wrap .content-container .content .board-place__half__table {
           width: 100%;
           font-size: 14px; }

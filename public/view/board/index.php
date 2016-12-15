@@ -1,5 +1,6 @@
 <?php include('../../partials/htmlheader.php') ?>
 <body class="board-place">
+<script src="/js/free-board-index.js"></script>
   <div class="wrap">
   <?php include('../../partials/fixed-nav.php') ?>
   <?php include('../../partials/header.php') ?>
@@ -29,77 +30,7 @@
               <th>조회수</th>
             </tr>
           </thead>
-          <tbody>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
-            <tr class="free-board__content">
-              <td>1</td>
-              <td><a href="/view/board/view.php"> 제목 </a></td>
-              <td>관리자</td>
-              <td>2016-01-01</td>
-              <td>1</td>
-            </tr>
+          <tbody id="board_content">
           </tbody>
         </table>
         <div class="btn-box">

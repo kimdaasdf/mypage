@@ -16,7 +16,7 @@
       </section>
       <section class="content">
         <h1 class="big-title">회원가입</h1>
-        <form action="/member-store.php">
+        <form method="POST" action="/view/asset/member-store.php">
           <table class="member-table" border="1">
             <tbody>
               <tr>
@@ -58,7 +58,7 @@
             </tbody>
           </table>
           <div class="btn-box">
-            <a href="" class="custom-btn">등록</a>
+            <button type="submit" class="custom-btn">등록</button>
             <a href="/" class="custom-btn">취소</a>
           </div>
         </form>

@@ -6,7 +6,9 @@
   <title>Test</title>
 
   <script type="text/javascript" src="/lib/jquery/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="/lib/jquery/jquery-ui/jquery-ui.js"></script>
   <script type="text/javascript" src="/lib/angular/angular.js"></script>
+  <script type="text/javascript" src="/ckeditor/ckeditor.js"></script>
 <!--   <script type="text/javascript" src="/lib/bootstrap/js/bootstrap.js"></script>
 <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap.css">
 <link rel="stylesheet" type="text/css" href="/lib/bootstrap/css/bootstrap-theme.css"> -->

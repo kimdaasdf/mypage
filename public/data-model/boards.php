@@ -2,7 +2,7 @@
 
   require_once('../data-model/config.php');
 
-  $user_query = "SELECT * FROM boards order by 'asc'";
+  $user_query = "SELECT * FROM boards order by board_id desc";
 
   $result = mysqli_query($database, $user_query);
 

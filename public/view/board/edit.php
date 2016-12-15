@@ -21,7 +21,12 @@
         <h1 class="big-title">자유 게시판</h1>
         <div class="write-box">
           <input type="text" name="board_title" class="custom-form">
-          <textarea rows="10" class="custom-area"></textarea>
+          <textarea rows="10" name="board_content" id="board_content"></textarea>
+            <script type="text/javascript">
+              CKEDITOR.replace('board_content', {
+                height: 350
+              });
+            </script>
         </div>
         <div class="btn-box">
           <a href="" class="custom-btn">등록</a>
